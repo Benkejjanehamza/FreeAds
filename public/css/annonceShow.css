@@ -1,0 +1,152 @@
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+.annonces-container {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.annonce {
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.annonce:hover {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+img {
+    object-fit: contain;
+    height: 400px;
+    width: 100%;
+}
+
+.annonce h2 {
+    font-size: 24px;
+    color: #0056b3;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.annonce p {
+    padding: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #eee;
+}
+
+.prix {
+    font-weight: bold;
+    color: #4CAF50;
+    padding: 15px;
+    text-align: right;
+}
+
+.annonce {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 320px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.original-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border: 3px solid #9c1443;
+    transition: 0.3s;
+    background-color: #e91e63;
+}
+.original-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.bton-container{
+    display: flex;
+    gap: 2%;
+}
+
+.container-critere{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,9 @@
+[90m= [39m[34;4mApp\Models\Annonce[39;24m {#5250
+    [34mtitre[39m: "[32mExemple de Titre[39m",
+    [34mdescription[39m: "[32mCeci est une description exemple pour notre annonce.[39m",
+    [34mprix[39m: [33m100.5[39m,
+    [34mcritere[39m: "[32mmeubles[39m",
+    [34mlocation[39m: "[32mLyon[39m",
+    [34muser_id[39m: [36mnull[39m,
+  }
+
