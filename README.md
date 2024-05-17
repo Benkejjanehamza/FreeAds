@@ -1,7 +1,5 @@
 # FreeAds
 
-# FreeAds
-
 # Projet de Site de Petites Annonces avec Laravel
 
 ## Description
